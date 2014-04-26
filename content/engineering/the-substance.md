@@ -17,7 +17,7 @@ Focus on crafting your words
 
 
 <p class='u-textCenter'>
-  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsd0t3ZGNMUTMxWDA'>Google Docs</a>
+  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsWUxlTy1GdXMwd3M'>Google Docs</a>
 </p>
 
 

@@ -6,7 +6,7 @@ heading: The Beginners Mind
 
 Don't give in to your ego, be honest about what you don't know. Most problems exist only because the right questions are yet to be asked.
 
-### Step outsite the event loop 
+### Step outside your event loop 
 
 Take a break from your problem domain by taking connecting with the world outside that is not concerned with your obsessions.
 
@@ -14,7 +14,7 @@ Doing something physically repetitive seems to be a great way to make break thro
 
 
 <p class='u-textCenter u-paddingTl'>
-  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsZW5rTXpmMWMxNEU'>Google Docs</a>
+  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsTDJMREJZdk9kSXM'>Google Docs</a>
 </p>
 
 

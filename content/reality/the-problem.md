@@ -26,7 +26,7 @@ What is wrong with their approach?
 
 
 <p class='u-textCenter u-paddingTl'>
-  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsMjhfTTluWXpMNWM'>Google Docs</a>
+  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsUmJDWm1OVjY4Zjg'>Google Docs</a>
 </p>
 
 

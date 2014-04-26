@@ -17,7 +17,7 @@ Finding flow, habits, practice, principles
 
 
 <p class='u-textCenter'>
-  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsTzZwUDJEUGNMQjA'>Google Docs</a>
+  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRscDJiNmM4aTFhRlU'>Google Docs</a>
 </p>
 
 

@@ -11,7 +11,7 @@ About culture
 
 
 <p class='u-textCenter'>
-  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsQ1BXMERqSFlYS1k'>Google Docs</a>
+  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsVHBqa1hHMXF4eUk'>Google Docs</a>
 </p>
 
 

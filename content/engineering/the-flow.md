@@ -1,7 +1,7 @@
 ---
 template: page.hbs
 mindset: engineer
-heading: Engineering Flow
+heading: Engineer Flow
 ---
 
 Finding flow, habits, practice, principles
@@ -9,7 +9,7 @@ Finding flow, habits, practice, principles
 
 
 <p class='u-textCenter'>
-  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsZHpQTnRxeDduM0k'>Google Docs</a>
+  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsZk5VcE81by0wWG8'>Google Docs</a>
 </p>
 
 

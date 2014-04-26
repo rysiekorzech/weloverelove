@@ -31,12 +31,11 @@ Step in your customers shoes and get to the heart of their problems by helping t
 
 ## Learn more
 
-* [Listen to Ryan Singer](http://drt.fm/ryan-singer/)
 * [Make OKRs work](http://firstround.com/article/How-to-Make-OKRs-Actually-Work-at-Your-Startup)
 
 
 <p class='u-textCenter'>
-  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsc2RBNUpHZldGVHc'>Google Docs</a>
+  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsOEk3TDU4T2FCdnM'>Google Docs</a>
 </p>
 
 

@@ -12,7 +12,7 @@ Deciding consequences
 
 
 <p class='u-textCenter'>
-  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsZVpaYW5aYzZlaUU'>Google Docs</a>
+  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsNVFGQThvbDJiZVE'>Google Docs</a>
 </p>
 
 

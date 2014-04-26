@@ -20,7 +20,7 @@ If you could "magic up" a solution, what would be happening? What do you see, he
 What does your intuition tell you about the right path for you and what ideas does that cultivate?
 
 <p class='u-textCenter u-paddingTl'>
-  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsVkR3MmpqMmtxaDQ'>Google Docs</a>
+  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsMG9tZjZ0cHBoZzA'>Google Docs</a>
 </p>
 
 

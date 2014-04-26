@@ -14,7 +14,7 @@ Have structures in place enough to understand what others are doing and yet be f
 
 
 <p class='u-textCenter'>
-  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsbTlzV2gxVFkyUGs'>Google Docs</a>
+  <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsWGtxYnh1ZFlfOEE'>Google Docs</a>
 </p>
 
 
