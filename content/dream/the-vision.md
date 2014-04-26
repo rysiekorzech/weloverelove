@@ -20,10 +20,6 @@ If you could "magic up" a solution, what would be happening? What do you see, he
 
 What does your intuition tell you about the right path for you and what ideas does that cultivate?
 
-### The Google Docs
- 
-The associated Google Docs are designed to help you explore and capture your vision using mindmaps and sketching templates. In all this the goal is to enhance communication.
-
 <p class='u-textCenter u-paddingTl'>
   <a class='u-linkBorderBottom' target='_blank' href='https://drive.google.com/#folders/0BzCKEVhwdQRsMG9tZjZ0cHBoZzA'>Edit Google Docs</a>
 </p>
