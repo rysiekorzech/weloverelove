@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>reality_color</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="sprites" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="reality_color" sketch:type="MSArtboardGroup" fill="#16A085">
+            <path d="M104.771155,40.308867 C113.423254,48.7837183 117.749239,59.2594191 117.749239,71.7362836 C117.749239,84.4485606 113.363171,95.3362271 104.590904,104.39961 C95.8186367,113.462992 85.1839243,117.994616 72.6864476,117.994616 C60.4293071,117.994616 49.974844,113.462992 41.3227448,104.39961 C32.6706456,95.3362271 28.3446609,84.4485606 28.3446609,71.7362836 C28.3446609,59.0240066 32.6105625,48.4894535 41.1424937,40.1323084 C49.6744248,31.7751634 60.188971,27.5966535 72.6864476,27.5966535 C85.4242604,27.5966535 96.1190559,31.8340156 104.771155,40.308867 Z" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

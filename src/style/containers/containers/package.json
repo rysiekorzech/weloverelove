@@ -1,0 +1,19 @@
+{
+  "name": "zk-containers",
+  "version": "0.0.1",
+  "description": "ZK containers",
+  "main": "index.html",
+  "style": "styles/containers.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dreamineering/zk-containers.git"
+  },
+  "keywords": [
+    "css",
+    "ztylekitchen",
+    "containers"
+  ],
+  "author": {
+    "name": "@howzus Matt Mischewski"
+  }
+}

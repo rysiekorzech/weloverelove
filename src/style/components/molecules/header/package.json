@@ -1,0 +1,20 @@
+{
+  "name": "zk molecule header",
+  "version": "0.0.1",
+  "description": "ZK molecule header",
+  "main": "index.html",
+  "style": "styles/header.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dreamineering/zk-molecule-header.git"
+  },
+  "keywords": [
+    "css",
+    "ztylekitchen",
+    "molecule",
+    "header"
+  ],
+  "author": {
+    "name": "@howzus Matt Mischewski"
+  }
+}

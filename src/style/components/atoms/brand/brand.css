@@ -1,0 +1,78 @@
+
+:root {
+
+}
+
+.l-brand {
+  margin-top: 3em;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.l-logo {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto 1em;
+}
+@media tab-and-up {
+  .l-logo {
+    width: 40%;
+  }
+}
+
+.logo--white .bd-logo-svg {
+  fill: white;
+}
+
+
+.l-logo-container {
+  height: 200px;
+  width: 60%;
+  margin: auto;
+}
+@media palm-and-up {
+  .l-logo-container {
+    height: 300px;
+  }
+}
+
+
+.brand-logo {
+  font-size: 1.2em;
+  width: 120px;
+  height: 120px;
+  color: white;
+  /*font-family: var(logo-font-family);*/
+  font-weight: bold;
+  margin-bottom: 1.616em;
+}
+.brand-zk--color {
+  color: inherit;
+  border: 1px solid var(brand-color);
+}
+
+.brand--HEADING {
+  font-size: 40px;
+  /*font-style: italic;*/
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+/*  border-bottom: 1px solid black;*/
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+@media sofa-and-up {
+  .brand--HEADING {
+    font-size: 60px;
+    line-height: 100px;
+    width: 600px;
+  }
+}
+
+
+
+

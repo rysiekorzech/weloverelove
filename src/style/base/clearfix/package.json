@@ -1,0 +1,19 @@
+{
+  "name": "zk-clearfix",
+  "version": "0.0.1",
+  "description": "ZK clearfix",
+  "main": "index.html",
+  "style": "styles/clearfix.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dreamineering/zk-utils-clearfix.git"
+  },
+  "keywords": [
+    "css",
+    "ztylekitchen",
+    "clearfix"
+  ],
+  "author": {
+    "name": "@howzus Matt Mischewski"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "drmg-site-nav",
+  "version": "0.0.1",
+  "description": "site nav overlay",
+  "main": "site_nav_overlay.js",
+  "style": "site_nav_overlay.css",
+  "keywords": [
+    "css",
+    "ztylekitchen",
+    "bem",
+    "site nav overlay"
+  ],
+  "author": {
+    "name": "@howzus Matt Mischewski"
+  }
+}

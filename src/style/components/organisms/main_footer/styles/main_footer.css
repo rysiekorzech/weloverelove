@@ -1,0 +1,39 @@
+
+
+.l-page-footer {
+  extend: .clearfix;
+  text-align: center;
+}
+@media desk-and-up {
+  .l-page-footer  {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    /*height: 230px;*/
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}
+
+
+.page-footer {
+  /*background: var(accent-color);*/
+}
+
+
+.page-footer__banner {
+  font-family: var(banner-font-family);
+  text-transform: uppercase;
+}
+
+.page-footer__banner span {
+  color: var(brand-color);
+  font-size: 1.4em;
+}
+
+
+.l-social {
+  margin: 0 auto;
+}
+

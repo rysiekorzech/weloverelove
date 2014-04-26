@@ -1,0 +1,133 @@
+
+/*
+ * COLOR GUIDE WITH HSL
+ * use http://css-tricks.com/examples/HSLaExplorer/
+ *
+ * Hue - Think of a color wheel.
+ * - 0o and 360o are reds
+ * - 120o are greens,
+ * - 240o are blues.
+ *
+ * Saturation
+ * - 0% is completely denatured (grayscale).
+ * - 100% is fully saturated (full color).
+ *
+ * Lightness
+ * - 0% is completely dark (black).
+ * - 100% is completely light (white).
+ * - 50% is average lightness.
+ *
+ * alpha
+ * - Opacity/Transparency value.
+ * - 0 is fully transparent.
+ * 1 is fully opaque.
+*/
+:root {
+
+  /*var-intro-color: #404040;*/
+  var-intro-bg-color: #f04040;
+  /*  var-search-icon: url("../images/search.svg");*/
+
+  var-color-reality: hsla(120, 50%, 50%, 1);
+
+  var-flow-bg-color: #eee;
+  var-flow-color: #000;
+
+  var-dream-bg-color: #eee;
+  var-dream-color: #000;
+
+  var-dream-culture-bg-color: #fff;
+  var-dream-culture-color: #444;
+
+ /* a dark background image light text*/
+  var-eng-bg-color: #4b5959;
+  var-eng-color: #b5bfc4;
+
+  var-eng2-bg-color: #f1f0ee;
+  var-eng2-color: #51504c;
+
+  var-eng-substance-bg-color: #f1f0ee;
+  var-eng-substance-color: #51504c;
+
+  var-eng-structure-bg-color: #fff;
+  var-eng-structure-color: #000;
+
+  var-eng-connection-bg-color: #f1f0ee;
+  var-eng-connection-color: #51504c;
+
+  var-reality-bg-color: #fff;
+  var-reality-color: #51504c;
+
+  var-unknown-bg-color: #9e9d92;
+  var-unknown-color: #fff;
+
+}
+
+
+.u-lightText {
+  color: var(light-text);
+}
+
+.u-colorRealityBG {
+  background-color: var(color-reality);
+  color: var(white);
+}
+
+
+.reality-facts {
+  background-color: var(reality-bg-color);
+  color: var(reality-color);
+}
+
+.flow {
+  background-color: var(flow-bg-color);
+  color: var(flow-color);
+}
+
+.dream {
+  background-color: var(dream-bg-color);
+  color: var(dream-color);
+}
+
+.dream-culture {
+  background-color: var(dream-culture-bg-color);
+  color: var(dream-culture-color);
+}
+
+.engineering {
+  background-color: var(eng-bg-color);
+  color: var(eng-color);
+  background-size: cover;
+}
+
+.engineering-substance {
+  background-color: var(eng-substance-bg-color);
+  color: var(eng-substance-color);
+}
+
+.engineering-structure {
+  background-color: var(eng-structure-bg-color);
+  color: var(eng-structure-color);
+}
+
+.engineering-connection {
+  background-color: var(eng-connection-bg-color);
+  color: var(eng-connection-color);
+}
+
+.reality-facts {
+  background-color: var(reality-bg-color);
+  color: var(reality-color);
+}
+
+.reality-solution {
+  background-color: var(intro-bg-color);
+  color: var(light-text);
+}
+
+.unknown-questions {
+  background-color: var(unknown-bg-color);
+  color: var(unknown-color);
+}
+
+

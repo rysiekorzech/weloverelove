@@ -1,0 +1,66 @@
+
+/*
+ * COLOR GUIDE WITH HSL
+ * use http://css-tricks.com/examples/HSLaExplorer/
+ *
+ * Hue - Think of a color wheel.
+ * - 0o and 360o are reds
+ * - 120o are greens,
+ * - 240o are blues.
+ *
+ * Saturation
+ * - 0% is completely denatured (grayscale).
+ * - 100% is fully saturated (full color).
+ *
+ * Lightness
+ * - 0% is completely dark (black).
+ * - 100% is completely light (white).
+ * - 50% is average lightness.
+ *
+ * alpha
+ * - Opacity/Transparency value.
+ * - 0 is fully transparent.
+ * 1 is fully opaque.
+*/
+
+:root {
+
+  var-title-font-family: "Source Sans Pro", "Myriad Pro", "Lucida Grande",
+  "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  var-banner-font-family: var(title-font-family);
+
+  var-text-font-family: "Droid Serif", Georgia, Cambria, "Times New Roman",
+  Times, serif;
+
+  /* standard colors */
+  var-gray: #808080;
+  var-gray-light : #f9f9f9;
+  var-gray-light-2 : #eee;
+  var-gray-light-3 : #ddd;
+  var-gray-med : #666;
+  var-gray-dark : #333;
+  var-gray-dark-2 : #131313;
+  var-white : #fff;
+  var-black : #000;
+  var-dim : rgba(0,0,0,0.5);
+  var-error : #f00;
+  var-valid : #089e00;
+  var-warning : #fff664;
+  var-information : #000db5;
+
+  var-text-color: #404040;
+  var-light-text: #fff;
+
+  var-brand-color: #f04040;
+
+  var-accent-color: #f04040;
+  var-body-bg-color: rgba(255, 255, 255, 1);
+  var-border-color: #f4f2f0;
+
+  var-overlay-bg-color: rgba(10, 90, 92, 0.7);
+  var-overlay-bg-box-shadow: inset 0px 0px 115px 0px #000000;
+  var-border-radius--notification: 2px;
+  var-color--notification: #fff;
+  var-search-icon: url("../images/search.svg");
+
+}
