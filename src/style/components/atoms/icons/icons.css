@@ -1,0 +1,52 @@
+
+.icon {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+
+}
+.i-size {
+  vertical-align: middle !important;
+}
+
+.i-size-12 { font-size: 12px; }
+.i-size-14 { font-size: 14px; }
+.i-size-16 { font-size: 16px; }
+.i-size-18 { font-size: 18px; }
+.i-size-21 { font-size: 21px; }
+.i-size-24 { font-size: 24px; }
+.i-size-32 { font-size: 32px; }
+
+.i-size-48 {
+  font-size: 48px;
+}
+
+
+.i-size-64 { font-size: 64px; }
+.i-size-96 { font-size: 96px; }
+
+
+/*.icon:before,
+.icon:after {
+  font-family: 'fontawesome';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}*/
+
+/*span.nav-prev:before {
+  content: "\e601";
+}
+
+span.nav-next:before  {
+  content: "\e600";
+}
+
+span.nav-close:before {
+  content: "\e602";
+}*/

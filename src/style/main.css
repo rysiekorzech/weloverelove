@@ -1,10 +1,8 @@
 
-/*@import "./src/style/normalize";*/
+@import "./src/style/_vars/structure";
+@import "./src/style/_vars/connection";
+
 @import "./src/style/base/normalize";
-
-@import "./src/style/config_vars/structure";
-@import "./src/style/config_vars/connection";
-
 
 @import "./src/style/base/fonts";
 @import "./src/style/base/fonts/ionicons";
@@ -17,11 +15,11 @@
 
 
 /*Boundaries*/
-/*@import "./src/style/containers/grid";*/
-@import "./src/style/containers/containers";
+@import "./src/style/boundaries/containers";
+@import "./src/style/boundaries/sections";
+
 
 /*Components*/
-
 /*Quarks*/
 @import "./src/style/components/_quarks/dimension";
 @import "./src/style/components/_quarks/display";
@@ -32,11 +30,10 @@
 @import "./src/style/components/_quarks/state";
 @import "./src/style/components/_quarks/text";
 
-@import "./src/style/components/_quarks/color";
-
 
 /*Atoms*/
 @import "./src/style/components/atoms/brand";
+@import "./src/style/components/atoms/icons";
 @import "./src/style/components/atoms/button";
 @import "./src/style/components/atoms/toggle";
 
@@ -48,7 +45,6 @@
 /*Organisms*/
 /*@import "./src/style/components/organisms/main_nav";*/
 @import "./src/style/components/organisms/main_footer";
-@import "./src/style/components/organisms/section";
 @import "./src/style/components/organisms/banners";
 
 /*modules*/

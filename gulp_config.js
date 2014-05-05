@@ -25,8 +25,8 @@ module.exports = {
    */
 
   app: {
-    contentDir:        '/Users/wik/googledrive/dreams/weloverelove/_content/',
-    contentDirWatch:   '/Users/wik/googledrive/dreams/weloverelove/_content/**/*',
+    contentDir:        '/Users/wik/googledrive/dreams/weloverelove.com/external/',
+    contentDirWatch:   '/Users/wik/googledrive/dreams/weloverelove.com/external/content/**/*',
     stylesIndex:       'src/style/main.css',
     styles:            ['src/style/**/*.css','src/js/modules/**/*.css'],
     html:              'build/**/*.html',

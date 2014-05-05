@@ -1,8 +1,4 @@
 
-:root {
-
-}
-
 .l-brand {
   margin-top: 3em;
   text-align: center;
@@ -47,20 +43,14 @@
   font-weight: bold;
   margin-bottom: 1.616em;
 }
-.brand-zk--color {
-  color: inherit;
-  border: 1px solid var(brand-color);
-}
 
 .brand--HEADING {
   font-size: 40px;
-  /*font-style: italic;*/
-  line-height: 100px;
+  color: white;
+  line-height: 200px;
   text-align: center;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-/*  border-bottom: 1px solid black;*/
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -72,7 +62,3 @@
     width: 600px;
   }
 }
-
-
-
-

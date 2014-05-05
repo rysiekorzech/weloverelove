@@ -20,7 +20,7 @@ require('./tasks/html');
 require('./tasks/staticsvr');
 
 
-gulp.task('watch', ['staticsvr'], function() {
+gulp.task('watch', ['server'], function() {
   var server = livereload();
   gulp.watch(cfg.buildDir + '/**').on('change', function(file) {
       server.changed(file.path);
@@ -43,22 +43,27 @@ gulp.task('watch', ['staticsvr'], function() {
   gulp.watch(cfg.app.contentDirWatch, ['fetchContent']);
 
   // Watch for new content
-  gulp.watch(cfg.app.markdown, ['build']);
+  gulp.watch(cfg.app.markdown, ['metalsmith']);
   // Watch for new template design
-  gulp.watch(cfg.app.buildHelpers, ['build']);
-  gulp.watch(cfg.app.buildTemplates, ['build']);
+  gulp.watch(cfg.app.buildHelpers, ['metalsmith']);
+  gulp.watch(cfg.app.buildTemplates, ['metalsmith']);
 
 })
 
 gulp.task('build', function(callback) {
-  runSequence('clean', ['metalsmith'],
+  runSequence(
+              ['clean','cleanContent'],
+              ['fetchContent'],
+              ['metalsmith'],
               ['scripts','styles','images','assets','html'],
               callback);
 });
 
 gulp.task('publish', function(callback) {
   cfg.env = 'production';
-  runSequence('clean', ['metalsmith'],
+  runSequence('clean',
+              ['fetchContent'],
+              ['metalsmith'],
               ['scripts','styles','images','assets','html'],
               callback);
 });

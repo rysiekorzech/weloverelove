@@ -24,30 +24,3 @@ gulp.task('mdContent', function() {
     .pipe(gulp.dest('content'));
 });
 
-
-gulp.task('icons', function() {
-  return gulp.src(cfg.app.icons)
-    //.pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
-    .pipe(gulp.dest('build/assets/icons'))
-    .pipe(gif(cfg.env === 'production', gulp.dest('www/assets/icons')));
-});
-
-gulp.task('images', function() {
-  return gulp.src(cfg.app.images)
-    .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
-    .pipe(gulp.dest('build/assets/img'))
-    .pipe(gif(cfg.env === 'production', gulp.dest('www/assets/img')));
-});
-
-gulp.task('fonts', function() {
-  return gulp.src(cfg.app.fonts)
-    .pipe(gulp.dest('build/assets/fonts'))
-    .pipe(gif(cfg.env === 'production', gulp.dest('www/assets/fonts')));
-});
-
-gulp.task('meta', function() {
-  return gulp.src(cfg.app.meta)
-    .pipe(gulp.dest('build'))
-    .pipe(gif(cfg.env === 'production', gulp.dest('www')));
-});
-

@@ -26,11 +26,15 @@ module.exports = gulp.task('metalsmith', function(cb) {
 
   m.use(metadata(metadata));
 
-  // m.use(collections({
-  //  principles: {
-  //     pattern: 'reality/principles/*.md'
-  //   }
-  // }));
+  m.use(collections({
+    mainStory: {
+      pattern: 'story/home/*.md',
+      sortBy: 'flow'
+    }
+    // gridGallery: {
+    //   pattern: 'collections/grid-gallery/*.md'
+    // }
+  }));
 
   m.use(excerpts());
 

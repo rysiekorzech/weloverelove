@@ -1,7 +1,3 @@
 ---
 template: home.hbs
 ---
-
-
-
-

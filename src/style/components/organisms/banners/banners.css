@@ -1,35 +1,42 @@
 
-
 /* banner a full height banner */
 .__banner--FH {
   height: 100%;
   z-index: 200;
   position: relative;
+  margin: 0 auto;
 }
 .__banner__intro {
   position: relative;
-  bottom: 100px;
+  bottom: var(banner-BOTTOM-HEIGHT);
   height: 100%;
 }
 .__banner__welcome {
   position: absolute;
-  left: 0;
+  left: 4%;
   bottom: 0;
-  right: 0;
+  right: 4%;
   text-align: center;
 }
-.__banner__brand {
+.__banner__content {
   extend: .clearfix;
   position: relative;
-  background-color: var(black);
   z-index: 200;
-  top: -100px;
-  height: 100px;
+  top: -var(banner-BOTTOM-HEIGHT);
+  height: 260px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+.__banner__content--home {
+  padding-top: 0;
+  top: -200px;
+}
+.__banner__intro--home {
+  bottom: 200px;
 }
 
-.banner-bg--home {
-  /*background: #000 url(../img/bg/truck@1400x1120.png) no-repeat center center;*/
-  background: #000;
+.banner--home {
+  background: var(color-brand);
   background-size: cover;
   font-weight: light;
 }

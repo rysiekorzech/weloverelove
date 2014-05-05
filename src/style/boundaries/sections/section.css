@@ -1,0 +1,79 @@
+
+.__section {
+  padding: 2em 0 6em;
+}
+.__section > *:last-child,
+.__section > *:last-child > *:last-child,
+.__section > *:last-child > *:last-child > *:last-child {
+  margin-bottom: 0;
+}
+
+/* The Main Section Categories */
+
+.__section--main-intro {
+  padding-top: 0;
+}
+
+.home {
+  background-color: var(color-brand);
+}
+
+.dreamer {
+  background-color: var(color-dreamer);
+  color: var(clouds);
+}
+
+.engineer {
+  background-color: var(color-engineer);
+  color: var(clouds);
+  background-size: cover;
+}
+
+.realist {
+  background-color: var(color-realist);
+  color: var(clouds);
+  background-size: cover;
+}
+
+.philosopher {
+  background-color: var(color-philosopher);
+  color: var(clouds);
+  background-size: cover;
+}
+
+
+.narrator {
+  background-color: var(color-narrator);
+  color: var(clouds);
+  background-size: cover;
+}
+
+
+/* Sections from main */
+.dreamVision {
+  background-color: var(color-dreamer--VISION);
+  color: var(clouds);
+}
+.dreamCulture {
+  background-color: var(color-dreamer--CULTURE);
+  color: var(clouds);
+}
+
+.engineerFlow {
+  background-color: var(clouds);
+/*  color: var(white);*/
+}
+
+
+.realityValue {
+  background-color: var(color-realist--VALUE);
+  color: var(clouds);
+}
+.realityFacts {
+  background-color: var(color-realist--FACTS);
+  color: var(clouds);
+}
+
+.unknownQuestions {
+  background-color: var(color-philosopher-QUESTION);
+}

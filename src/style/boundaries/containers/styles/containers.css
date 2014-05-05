@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+}
+
+
+.__page-container {
+  height: 100%;
+}
+
+
+.__content-container {
+  position: relative;
+  z-index: 200;
+/*  height: 100%;*/
+  margin-bottom: 0;
+  background-color: #FFF;
+}
+/*
+ * The following works in conjuntion with the footer
+ * so make sure media queries and heights are aligned
+ */
+@media desk-and-up {
+  .__content-container   {
+    margin-bottom: var(footer-container-MB);
+  }
+}
+
+
+.__content {
+  extend: .clearfix;
+  margin: 0 auto;
+/*  height: 100%;*/
+}
+
+
+._site-width {
+  extend: .clearfix;
+  margin: 0 auto;
+  width: 85%;
+}
+@media purse-and-up {
+  ._site-width {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    clear: left;
+  }
+}
+
+
+._copy-width {
+  width: 100%;
+}
+@media purse-and-up {
+  ._copy-width {
+    width: 83%;
+    margin: 0 auto;
+  }
+}

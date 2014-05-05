@@ -1,0 +1,126 @@
+
+/*
+ * COLOR GUIDE WITH HSL
+ * use http://css-tricks.com/examples/HSLaExplorer/
+ *
+ * Hue color wheel.
+ * - 0o and 360o are reds
+ * - 120o are greens,
+ * - 240o are blues.
+ *
+ * Saturation
+ * - 0% is completely denatured (grayscale).
+ * - 100% is fully saturated (full color).
+ *
+ * Lightness
+ * - 0% is completely dark (black).
+ * - 100% is completely light (white).
+ * - 50% is average lightness.
+ *
+ * alpha
+ * - Opacity/Transparency value.
+ * - 0 is fully transparent.
+ * 1 is fully opaque.
+*/
+
+:root {
+
+  var-title-font-family:     "Source Sans Pro", Geneva, Verdana, sans-serif;
+  var-banner-font-family:    var(title-font-family);
+
+  var-text-font-family:     "Droid Serif", Georgia, "Times New Roman", serif;
+
+  /* flat  oolors */
+  /* greens */
+  var-turquoise:            hsla(168, 76%, 42%, 1);
+  var-emerland:             hsla(145, 63%, 49%, 1);
+  var-greensea:             hsla(168, 76%, 36%, 1);
+  var-nephritis:            hsla(145, 63%, 42%, 1);
+  /* blues */
+  var-peterriver:           hsla(204, 70%, 53%, 1);
+  var-belizehole:           hsla(204, 64%, 44%, 1);
+  /* blue black */
+  var-wetasphalt:           hsla(210, 29%, 29%, 1);
+  var-midnightblue:         hsla(210, 29%, 24%, 1);
+  /* purples */
+  var-amethyst:             hsla(283, 39%, 53%, 1);
+  var-wisteria:             hsla(282, 44%, 47%, 1);
+  /* yellow orange */
+  var-sunflower:            hsla(48, 89%, 50%, 1);
+  var-carrot:               hsla(28, 80%, 52%, 1);
+  var-orange:               hsla(37, 90%, 51%, 1);
+  var-pumpkin:              hsla(24, 100%, 41%, 1);
+  /* reds */
+  var-alizarin:             hsla(6, 78%, 57%, 1);
+  var-pomegranate:          hsla(6, 63%, 46%, 1);
+  /* grays */
+  var-clouds:               hsla(192, 15%, 94%, 1);
+  var-concrete:             hsla(184, 9%, 62%, 1);
+  var-silver:               hsla(204, 8%, 76%, 1);
+  var-asbestos:             hsla(184, 6%, 53%, 1);
+
+  /* standard colors */
+
+  var-gray:                 #808080;
+  var-gray-light :          #f9f9f9;
+  var-gray-light-2 :        #eee;
+  var-gray-light-3 :        #ddd;
+  var-gray-med :            #666;
+  var-gray-dark :           #333;
+  var-gray-dark-2 :         #131313;
+  var-white :               #fff;
+  var-black :               #000;
+  var-dim :                 rgba(0,0,0,0.5);
+
+
+  var-text-color:           var(midnightblue);
+  var-text-color--light:    var(white);
+
+  var-body-bg-color:        rgba(255, 255, 255, 1);
+  var-border-color:         #f4f2f0;
+
+  var-error :               #f00;
+  var-valid :               #089e00;
+  var-warning :             #fff664;
+  var-information :         #000db5;
+
+
+  var-color-brand:                var(midnightblue);
+  var-color-link:                 var(midnightblue);
+
+  var-color-dreamer--VISION:      var(amethyst);
+  var-color-dreamer--CULTURE:     var(wisteria);
+  var-color-dreamer:              var(wisteria);
+
+  var-color-engineer--SUBSTANCE:  var(carrot);
+  var-color-engineer--STRUCTURE:  var(alizarin);
+  var-color-engineer--CONNECTION: var(pomegranate);
+  var-color-engineer:             var(pomegranate);
+
+  var-color-realist--PROBLEM:     var(emerland);
+  var-color-realist--VALUE:       var(nephritis);
+  var-color-realist--FACTS:       var(greensea);
+  var-color-realist:              var(greensea);
+
+  var-color-philosopher-QUESTION: var(peterriver);
+  var-color-philosopher:          var(peterriver);
+
+
+  var-color-narrator:             var(concrete);
+
+
+  var-overlay-bg-color:           rgba(10, 90, 92, 0.7);
+
+
+  var-overlay-bg-box-shadow: inset 0px 0px 115px 0px #000000;
+  var-border-radius--notification: 2px;
+
+}
+
+/* COLOR MODIFIER CLASSES */
+
+.u-lightText {
+  color: var(text-color--light);
+}
+
+

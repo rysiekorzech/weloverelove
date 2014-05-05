@@ -1,11 +1,11 @@
 
 
-.l-page-footer {
+.__page-footer {
   extend: .clearfix;
   text-align: center;
 }
 @media desk-and-up {
-  .l-page-footer  {
+  .__page-footer  {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -18,7 +18,8 @@
 
 
 .page-footer {
-  /*background: var(accent-color);*/
+  background: var(wetasphalt);
+  color: var(white);
 }
 
 
@@ -28,7 +29,7 @@
 }
 
 .page-footer__banner span {
-  color: var(brand-color);
+  color: var(color-brand);
   font-size: 1.4em;
 }
 

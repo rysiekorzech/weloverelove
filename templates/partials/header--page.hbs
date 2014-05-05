@@ -1,13 +1,37 @@
-<header class='l-section intro intro-{{mindset}}' role='banner'>
+<header class='__banner--FH  banner {{ mindset }} {{ section }}' role='banner'>
 
-  <div class='l-site-width l-intro l-intro--{{mindset}}'>
+  <div class='__banner__intro'>
 
-    <div class='l-copy-width'>
+    <div class='_site-width'>
+      <div class='_copy-width'>
 
-      <h2>{{heading}}</h2>
+        <div class="__banner__welcome">
 
-      <p>{{intro}}</p>
+          <div class="">
+            <h1 class="typography--BANNER-HEADING">{{ heading }}</h1>
+          </div>
 
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class='__banner__content {{ mindset }} {{ section }}'>
+
+    <div class='_site-width'>
+      <div class='_copy-width'>
+
+
+        <blockquote class='typography-BLOCKQUOTE--small' cite="{{ citeUrl }}">
+          {{{ quote }}}
+        </blockquote>
+        <p class='typography-CITE-BANNER'>
+          <cite><a class='u-linkBorderBottom' target="_blank" href="{{ citeUrl }}">{{ cite }}</a></cite>
+        </p>
+
+      </div>
     </div>
 
   </div>

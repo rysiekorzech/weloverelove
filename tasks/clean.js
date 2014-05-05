@@ -13,3 +13,10 @@ module.exports = gulp.task('clean', function() {
     'www/**/*'], { read: false })
     .pipe(rimraf({ force: true }));
 });
+
+
+
+module.exports = gulp.task('cleanContent', function() {
+  return gulp.src(['content/**/*'], { read: false })
+    .pipe(rimraf({ force: true }));
+});
